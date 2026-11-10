@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════════════
+                WIFI NETWORK TOOLKIT - QUICK START
+═══════════════════════════════════════════════════════════════
+
+ONE FILE TO RULE THEM ALL: wifi_toolkit.py
+
+USAGE:
+------
+1. Normal scan (no root needed):
+   python3 wifi_toolkit.py
+
+2. Full traffic monitoring (REQUIRES ROOT):
+   sudo python3 wifi_toolkit.py
+
+HOW TO USE:
+-----------
+1. Run the tool
+2. Press [1] to scan network and see all connected devices
+   (Shows: IP, MAC, Device Name, identifies Router & your device)
+3. Press [2] to monitor traffic for a selected device
+   - Select device by number from the list
+   - See DNS lookups and HTTP requests in real-time
+   - Press Ctrl+C to stop monitoring
+4. Press [3] to rescan network
+5. Press [4] to exit
+
+FEATURES:
+---------
+✓ Interactive keyboard menu
+✓ Professional color-coded interface
+✓ Network scanning with all devices
+✓ Device selection
+✓ Real-time traffic monitoring (DNS + HTTP)
+✓ Hostname resolution
+✓ Router & your device identification
+✓ Clean table layout
+
+NOTES:
+------
+- HTTPS traffic is encrypted, only DNS queries and HTTP Host headers visible
+- Traffic monitoring requires root/sudo privileges
+- Works on WiFi/Ethernet networks
+- Best results on same network segment
+
+═══════════════════════════════════════════════════════════════
